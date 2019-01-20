@@ -1,0 +1,81 @@
+Train on 6132 samples, validate on 1534 samples
+Epoch 1/30
+ - 40s - loss: 1.9486 - acc: 0.1393 - val_loss: 1.9459 - val_acc: 0.1349
+Epoch 2/30
+ - 34s - loss: 1.9469 - acc: 0.1463 - val_loss: 1.9459 - val_acc: 0.1336
+Epoch 3/30
+ - 34s - loss: 1.9447 - acc: 0.1588 - val_loss: 1.9423 - val_acc: 0.1545
+Epoch 4/30
+ - 34s - loss: 1.9371 - acc: 0.1698 - val_loss: 1.9244 - val_acc: 0.2243
+Epoch 5/30
+ - 34s - loss: 1.8709 - acc: 0.2202 - val_loss: 1.7842 - val_acc: 0.2373
+Epoch 6/30
+ - 34s - loss: 1.7552 - acc: 0.2422 - val_loss: 1.6998 - val_acc: 0.2862
+Epoch 7/30
+ - 34s - loss: 1.6978 - acc: 0.2688 - val_loss: 1.6696 - val_acc: 0.3312
+Epoch 8/30
+ - 34s - loss: 1.6431 - acc: 0.3097 - val_loss: 1.6199 - val_acc: 0.3716
+Epoch 9/30
+ - 34s - loss: 1.5718 - acc: 0.3394 - val_loss: 1.5424 - val_acc: 0.3748
+Epoch 10/30
+ - 34s - loss: 1.5085 - acc: 0.3762 - val_loss: 1.4959 - val_acc: 0.3983
+Epoch 11/30
+ - 34s - loss: 1.4414 - acc: 0.3943 - val_loss: 1.4824 - val_acc: 0.3787
+Epoch 12/30
+ - 34s - loss: 1.3961 - acc: 0.4302 - val_loss: 1.4543 - val_acc: 0.4126
+Epoch 13/30
+ - 34s - loss: 1.3667 - acc: 0.4279 - val_loss: 1.4509 - val_acc: 0.4224
+Epoch 14/30
+ - 34s - loss: 1.3415 - acc: 0.4581 - val_loss: 1.4353 - val_acc: 0.4276
+Epoch 15/30
+ - 34s - loss: 1.3143 - acc: 0.4715 - val_loss: 1.4196 - val_acc: 0.4433
+Epoch 16/30
+ - 34s - loss: 1.2683 - acc: 0.4848 - val_loss: 1.4212 - val_acc: 0.4628
+Epoch 17/30
+ - 34s - loss: 1.2303 - acc: 0.5116 - val_loss: 1.4104 - val_acc: 0.4713
+Epoch 18/30
+ - 34s - loss: 1.1983 - acc: 0.5271 - val_loss: 1.3833 - val_acc: 0.4948
+Epoch 19/30
+ - 34s - loss: 1.1724 - acc: 0.5414 - val_loss: 1.3782 - val_acc: 0.4993
+Epoch 20/30
+ - 34s - loss: 1.1234 - acc: 0.5605 - val_loss: 1.3427 - val_acc: 0.5098
+Epoch 21/30
+ - 34s - loss: 1.1092 - acc: 0.5727 - val_loss: 1.3384 - val_acc: 0.5196
+Epoch 22/30
+ - 34s - loss: 1.0590 - acc: 0.5928 - val_loss: 1.3188 - val_acc: 0.5352
+Epoch 23/30
+ - 34s - loss: 1.0478 - acc: 0.6063 - val_loss: 1.3054 - val_acc: 0.5515
+Epoch 24/30
+ - 34s - loss: 1.0086 - acc: 0.6233 - val_loss: 1.3173 - val_acc: 0.5489
+Epoch 25/30
+ - 34s - loss: 0.9951 - acc: 0.6331 - val_loss: 1.3353 - val_acc: 0.5424
+Epoch 26/30
+ - 34s - loss: 0.9733 - acc: 0.6468 - val_loss: 1.3326 - val_acc: 0.5456
+Epoch 27/30
+ - 34s - loss: 0.9501 - acc: 0.6544 - val_loss: 1.3276 - val_acc: 0.5502
+Epoch 28/30
+ - 34s - loss: 0.9311 - acc: 0.6601 - val_loss: 1.3359 - val_acc: 0.5554
+Epoch 29/30
+ - 34s - loss: 0.9188 - acc: 0.6600 - val_loss: 1.3655 - val_acc: 0.5535
+Epoch 30/30
+ - 34s - loss: 0.9076 - acc: 0.6720 - val_loss: 1.3517 - val_acc: 0.5535
+
+
+         anger  disgust  fear  guilt  joy  sadness  shame
+anger      689       51     2    279    2       21     99
+disgust     84      775    42     52   19       70     72
+fear         4        6   794      4    8       10     31
+guilt       33        2     0    451    0        2     57
+joy          6       14    11      8  827      148      8
+sadness     23       16     7     24   18      601      7
+shame       34        8    32     70    3       12    596
+
+
+         anger  disgust  fear  guilt  joy  sadness  shame
+anger      111       35     4     57   16       21     42
+disgust     29      147    24     21   13       26     25
+fear        11       11   141      9    7       11     14
+guilt       23        7     2     60    0        1     18
+joy         13        9    10      8  158       27     19
+sadness     20        7     6     13   14      134     10
+shame       16        8    20     37    9       12     98
